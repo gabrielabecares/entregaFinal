@@ -1,0 +1,134 @@
+.navbar{
+    padding: 20px;
+}
+
+.body {
+    background-image: linear-gradient(180deg, #fdfcfb 0%, #a8a8a8 100%);
+  }
+
+.carousel-inner{
+    padding: 20px;
+
+} 
+  .texto{
+    padding: 0;
+    color: #000000;
+  }
+
+.btn{
+    border: 1px;
+    color: beige;
+    background-color: beige;
+  }
+
+.row .iconos {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+.row .texto {
+    font-size: 100%;
+    color: #000000;
+    text-align: left;
+  }
+.contenedornosotros{
+    display: flex;
+   padding: 20px;
+   flex-direction: row;
+   flex-wrap:wrap;
+   align-content: center;
+   justify-content: center;
+
+    .nosotrostexto{
+            width: 300px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-content: center;
+            flex-shrink: 1;
+        }
+
+    .nosotrosimagen{
+            padding: 20px;
+            flex-direction: column;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-content: center;
+            flex-shrink: 1; 
+            display: flex;
+        
+        }
+}
+
+.imagentaller{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+/*ayuda*/
+
+
+.introduccion_ayuda{
+    padding: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: center;
+}
+
+.container_ayuda{
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	max-width: 80%;
+	margin-left: 7%;
+}
+.titulo{
+    margin: 20px;
+    padding: 20px;
+}
+.pregunta {
+	margin: 10px;
+	max-width: 900px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 1rem;
+    margin-left: 7%;
+}
+
+.pregunta_encabezado h3 {
+	font-size: 1rem;
+	margin: 0;
+	cursor: pointer;
+    color: #6b7a67;
+    font-style: italic;
+    margin-left: 7%;
+}
+
+.respuesta {
+	height: 0;
+	opacity: 0;
+    margin-left: 7%;
+}
+
+.respuesta.activo {
+	height: auto;
+	opacity: 1;
+    margin-left: 7%;
+}
+
+.footerpie{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
